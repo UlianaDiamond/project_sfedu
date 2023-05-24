@@ -1,0 +1,148 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 30px;
+    height: 25px;
+    left: 36px;
+    top: 36px;
+  }
+
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #373a47;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #0b4323;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    position: absolute;
+    left:89%;
+    top: 12px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: white;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    color: white;
+    height: 100%;
+    overflow: hidden;
+  
+  }
+
+  .sidebarHeader {
+   
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    cursor: default;
+    background-color: black;
+    color: white;
+}
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #F5F5F5;
+    font-size: 1.15em;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: white;
+
+  }
+  
+  /* Individual item */
+  .menu-item {
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color;
+}
+
+/*.bm-item:hover {
+  color: #0b4323;
+}*/
+
+  /* Styling of overlay */
+
+
+.menu_head {
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 200px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+
+
+/*.App {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+.sidebar button {
+    display: block;
+    margin: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    background-color: #f2f2f2;
+}
+
+.sidebarHeader {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    cursor: default;
+    border-bottom: 1px solid #cccccc;
+}*/

@@ -1,0 +1,104 @@
+html {
+    background: #F2F2F2;
+  }
+  
+  .container {
+    position: relative;
+    top: 100px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    z-index: 999;
+  }
+  
+
+.form-header {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: #1F8668;
+    border-radius: 2px;
+}
+
+form {
+    width: fit-content;
+    float: center;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 10px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    z-index: 1;
+}
+
+.form-body {
+    padding: 10px 40px;
+    justify-content: center;
+
+}
+
+.form-body .form-input {
+    font-size: 17px;
+    box-sizing: border-box;
+    margin: 10px;
+    height: 34px;
+    padding-left: 12px;
+    padding-right: 10px;
+    text-align: left;
+    border: 1px solid #d6d6d6;
+    background: white;
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid #1E1E1E;
+    border-radius: 2px;
+}
+
+/*#isAdmin.form-input {
+    background: #FFFDFD;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}*/
+
+.horizontal-group .left {
+
+    width: 49%;
+}
+
+.horizontal-group .right {
+
+    width: 49%;
+}
+
+.save_add {
+    background: #1F8668;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 2px;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 220px;
+    height: 50px;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.active, .save:hover {
+    background-color: #09694C;
+    color: white;
+  }
+
+.add {
+    cursor: pointer;
+}
